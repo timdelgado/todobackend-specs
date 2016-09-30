@@ -4,6 +4,7 @@ MAINTAINER timdelgado@gamestop.com
 COPY . /app
 WORKDIR /app
 
-RUN npm install
+RUN npm install -g mocha && \
+    npm install
 
-ENTRYPOINT ["npm", "test"]
+ENTRYPOINT ["mocha"]
