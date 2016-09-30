@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Justin Menga",
+  "author": "Tim Delgado",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.1.5",
